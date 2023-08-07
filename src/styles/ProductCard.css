@@ -1,37 +1,74 @@
-.product-card {
-    margin-top: 0.5rem;
+.listed-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 1200px;
 }
 
-.product-image {
-    width:100%;
-    height:auto;
-    background-color: rgb(243,242,248);
-    border-top-right-radius: 3%;
-    border-top-left-radius: 3%;
-}
+  
+  .product-card,
+  .product-card-wide {
+    flex: 0 1 calc(50% - 1rem);  
+    max-width: calc(50% - 1rem); 
+    margin: 0.5rem;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .product-card-wide {
+    flex: 0 1 calc(100% - 2rem);  
+    max-width: calc(100% - 2rem); 
+  }
 
-.product-title {
-    color: black;
-    margin-bottom: 0.625rem;
-    font-size: 1rem;
-}
+  
+  .product-image {
+      width:100%;
+      height:auto;
+      background-color: rgb(243,242,248);
+      border-top-right-radius: 5%;
+      border-top-left-radius: 5%;
+  }
+  
+  .product-title {
+      color: black;
+      margin-bottom: 0.25rem;
+      font-size: 1rem;
+  }
+  
+  .add-to-cart-button {
+      width: 90%;
+      border: none;
+      color: white;
+      border-radius: .9rem;
+      margin-bottom: 0.5rem;
+      cursor: pointer;
+  }
+  
+  .product-price {
+      color: rgb(255,0,245);
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+  }
+  
+  .former-price {
+      color: gray;
+      margin-bottom: 0.5rem;
+      font-size: 0.85rem;
+  }
+  
 
-.add-to-cart-button {
-    width: 90%;
-    border: none;
-    color: white;
-    border-radius: 50px;
-    margin-bottom: 0.625rem;
-}
-
-.product-price {
-    color: rgb(255,0,245);
-    margin-bottom: 0.625rem;
-    font-size: 1.1rem;
-}
-
-.former-price {
-    color: black;
-    margin-bottom: 0.625rem;
-    font-size: 0.85rem;
-}
+  @media (min-width: 901px) {
+    .product-card {
+      /* flex: 0 1 calc(25% - 2rem);   */
+      max-width: calc(25% - 1rem);
+    }
+    .product-card-wide {
+        /* flex: 0 1 calc (50% - 1rem); */
+        max-width: calc(50% - 2rem);
+    }
+  }
+  

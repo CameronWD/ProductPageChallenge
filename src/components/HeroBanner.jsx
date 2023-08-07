@@ -4,8 +4,10 @@ import '../styles/HeroBanner.css'
 const HeroBanner = () => {
   return (
     <div className='banner'>
-        <h1 className='banner-title'> Collection Title </h1>
-        <p className='banner-description'>Collection description</p>
+      <div className='banner-content'> 
+        <h1 className='banner-title'> Product </h1>
+        <p className='banner-description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
     </div>
   )
 }
