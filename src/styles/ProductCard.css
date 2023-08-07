@@ -1,0 +1,37 @@
+.product-card {
+    margin-top: 0.5rem;
+}
+
+.product-image {
+    width:100%;
+    height:auto;
+    background-color: rgb(243,242,248);
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+}
+
+.product-title {
+    color: black;
+    margin-bottom: 0.625rem;
+    font-size: 1rem;
+}
+
+.add-to-cart-button {
+    width: 90%;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    margin-bottom: 0.625rem;
+}
+
+.product-price {
+    color: rgb(255,0,245);
+    margin-bottom: 0.625rem;
+    font-size: 1.1rem;
+}
+
+.former-price {
+    color: black;
+    margin-bottom: 0.625rem;
+    font-size: 0.85rem;
+}
