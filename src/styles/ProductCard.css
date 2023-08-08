@@ -6,7 +6,6 @@
     max-width: 1200px;
 }
 
-  
   .product-card,
   .product-card-wide {
     flex: 0 1 calc(50% - 1rem);  
@@ -16,7 +15,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   
   .product-card-wide {
@@ -48,26 +47,24 @@
       cursor: pointer;
   }
   
-  .product-price {
+  .discounted-price {
       color: rgb(255,0,245);
       margin-bottom: 0.5rem;
       font-size: 1.5rem;
   }
   
-  .former-price {
+  .product-price {
       color: gray;
       margin-bottom: 0.5rem;
       font-size: 0.85rem;
   }
   
 
-  @media (min-width: 901px) {
+  @media (min-width: 850px) {
     .product-card {
-      /* flex: 0 1 calc(25% - 2rem);   */
       max-width: calc(25% - 1rem);
     }
     .product-card-wide {
-        /* flex: 0 1 calc (50% - 1rem); */
         max-width: calc(50% - 2rem);
     }
   }
