@@ -16,10 +16,10 @@ import Image12 from '../assets/doublewides/Collection - UWB7Pack - UWB.png'
 export default [
     { title: 'Product 1', price: 149, discount: 20 , image: Image1, onSale:true },
     { title: 'Product 2', price: 50.55, discount: 40 , image: Image2 },
-    { title: 'Product 11', price: 99.50, discount: 15, image: Image11, doublewide: true},
+    { title: 'Product 1 wide', price: 99.50, discount: 15, image: Image11, doublewide: true},
     { title: 'Product 3', price: 15.5, discount: 50 , image: Image3 },
     { title: 'Product 4', price: 50.55, discount: 20 , image: Image4 },
-    { title: 'Product 12', price: 99.99, discount: 10, image: Image12, doublewide: true},
+    { title: 'Product 2 wide', price: 99.99, discount: 10, image: Image12, doublewide: true},
     { title: 'Product 5', price: 125, discount: 20 , image: Image5 },
     { title: 'Product 6', price: 50.55, discount: 20 , image: Image6 },
     { title: 'Product 7', price: 160, discount: 15 , image: Image7 },
